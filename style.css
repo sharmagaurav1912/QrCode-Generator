@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(36, 36, 36);
+}
+
+.container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    min-height: 200px;
+    max-height: auto;
+    border-radius: 20px;
+    padding: 2rem 2rem;
+    background-color: rgb(51, 0, 51);
+}
+
+h1{
+    color: white;
+
+}
+
+input{
+    width: 100%;
+    height: 2rem;
+    margin: 1rem 0;
+    text-indent: 1rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+#qr-img{
+    width: 100%;
+}
+
+button{
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(68, 0, 23);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
